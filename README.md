@@ -288,71 +288,6 @@ npm run lint
 npm run format
 ```
 
-## Components
-
-### Authentication
-- Login
-- Register
-- Protected Route Wrapper
-
-### Dashboard
-- Main Dashboard
-- Application Statistics
-- Recent Activities
-
-### Job Management
-- Job Search
-- Application Tracking
-- Kanban Board
-- Saved Jobs
-
-### Tools
-- Resume ATS Checker
-- Interview Preparation
-
-## API Integration
-
-All API calls are centralized in service files:
-- auth.service.js - Authentication endpoints
-- job.service.js - Job and application endpoints
-- ai.service.js - AI-powered features
-
-## Testing
-
-The project uses React Testing Library and Jest for testing:
-
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode
-npm test -- --watch
-
-# Generate coverage report
-npm test -- --coverage
-```
-
-## Styling
-
-- Tailwind CSS for utility-first styling
-- Custom components follow BEM methodology
-- Responsive design for all screen sizes
-
-## Error Handling
-
-- Global error boundary
-- Form validation
-- API error handling
-- Loading states
-
-## Performance Optimization
-
-- React.memo for expensive components
-- useMemo for complex calculations
-- useCallback for callback functions
-- Image optimization
-- Code splitting
-
 ## Deployment
 
 1. Build the project:
@@ -369,13 +304,6 @@ VITE_API_URL=backend_api_url
 VITE_APP_NAME=JobTracker
 ```
 
-## Browser Support
-
-- Chrome (last 2 versions)
-- Firefox (last 2 versions)
-- Safari (last 2 versions)
-- Edge (last 2 versions)
-
 ## Contributing
 
 1. Fork the repository
@@ -384,6 +312,3 @@ VITE_APP_NAME=JobTracker
 4. Push to branch
 5. Create Pull Request
 
-## License
-
-MIT License
